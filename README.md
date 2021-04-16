@@ -30,11 +30,11 @@ Partindo do nosso ponto inicial teremos duas ramificações possíveis:
 1. Mehadia
 2. Timisoara
 
-Para calcular f(n) do ponto Mehadia teremos:
+- Para calcular f(n) do ponto Mehadia teremos:
 
 *f(mehadia) = 70 + 241 = 311*, onde 70 é distância gasta entre o ponto inicial e Mehadia e 241 é a distância aproximada entre Mehadia e Bucharest.
 
-Para calcular f(n) do ponto Timisoara teremos:
+- Para calcular f(n) do ponto Timisoara teremos:
 
 *f(timisoara) = 111 + 329 = 440*, onde 111 é distância gasta entre o ponto inicial e Timisoara e 329 é a  distância aproximada entre Timisoara e Bucharest.
 
