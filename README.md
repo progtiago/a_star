@@ -40,8 +40,5 @@ Para calcular f(n) do ponto Timisoara teremos:
 
 O algoritmo A\* faz uso de uma fila de prioridades. Uma vez inseridas as duas alternativas de rota na fila de prioridades, teremos como rota prioritária a de menor custo f(n), logo, Mehadia. Analisaremos as ramificações de Mehadia, da mesma forma como fizemos com o ponto inicial, e seguiremos até chegarmos no ponto final com o menor custo possível.
 
-A imagem abaixo simula o passo a passo utilizado pelo algoritmo A\* para achar a melhor rota.
-
-![](images/lugoj_bucharest.png)
 
 
