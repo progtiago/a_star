@@ -1,7 +1,8 @@
 # A*
 
-Resolução do problema proposto por Stuart Russel e Perter Norvig na terceira edição do livro Inteligência Artifical utilizando o algoritmo A*.
-Essa implementação faz parte da lista de exercícios proposta pelo curso de Pós Graduação em Inteligência Artificial da UFPR.
+Resolução do problema proposto por Stuart Russel e Perter Norvig na terceira edição do livro Inteligência Artifical utilizando o algoritmo A\*.
+
+*Essa implementação faz parte da lista de exercícios proposta pelo curso de Pós Graduação em Inteligência Artificial da UFPR.*
 
 ## O problema
 
@@ -14,13 +15,13 @@ Dadas as cidades A e B, como escolher o menor deslocamento possível?
 
 ## A solução
 
-A busca A* (lê-se A estrela) é um tipo de busca heurística que tenta localizar o melhor caminho a partir da combinação de g(n), o custo para alcançar o nó, e h(n), o custo para ir do nó atual ao objetivo:
+A busca A\* (lê-se A estrela) é um tipo de busca heurística que tenta localizar o menor caminho a partir da combinação de g(n), o custo para alcançar o nó, e h(n), o custo para ir do nó atual ao objetivo:
 
-f(n) = g(n) + h(n)
+*f(n) = g(n) + h(n)*
 
-Nesse caso o valor de h(n) é estimado, é a distância em linha reta (hdlr) entre o nó e o objetivo. Os valores de hdlr até Bucharest estão presentes na tabela abaixo:
+Nesse caso o valor de h(n) é estimado e corresponde a distância em linha reta (hdlr) entre o nó e Bucharest. Os valores de hdlr estão presentes na tabela abaixo:
 
-Para exemplificar, consideremos o exercício proposto onde queremos partir de Lugoj com destino a Bucharest.
+**Para exemplificar, consideremos o exercício proposto onde queremos partir de Lugoj com destino a Bucharest.**
 
 Partindo do nosso ponto inicial teremos duas ramificações possíveis:
 
@@ -29,17 +30,17 @@ Partindo do nosso ponto inicial teremos duas ramificações possíveis:
 
 Para calcular f(n) do ponto Mehadia teremos:
 
-f(mehadia) = distância gasta entre o ponto inicial e Mehadia + distância aproximada entre Mehadia e Bucharest
+f(mehadia) = distância gasta entre o ponto inicial e Mehadia + distância aproximada entre Mehadia e Bucharest.
 f(mehadia) = 70 + 241 = 311
 
-Para calcular f(n) do ponto Timisoara teremos:
+Para calcular f(n) do ponto timisoara teremos:
 
-f(timisoara) = distância gasta entre o ponto inicial e Timisoara + distância aproximada entre Timisoara e Bucharest
+(timisoara) = distância gasta entre o ponto inicial e Timisoara + distância aproximada entre Timisoara e Bucharest.
 f(timisoara) = 111 + 329 = 440
 
-O algoritmo A* faz uso de uma fila de prioridades. Uma vez inseridas as duas alternativas de rota na fila de prioridade, teremos como rota prioritária a de menor custo f(n), logo, Mehadia. Analisaremos as ramificações de Mehadia, da mesma forma como fizemos com o ponto inicial, e seguiremos até chegarmos no ponto final com o menor custo possível.
+O algoritmo A\* faz uso de uma fila de prioridades. Uma vez inseridas as duas alternativas de rota na fila de prioridades, teremos como rota prioritária a de menor custo f(n), logo, Mehadia. Analisaremos as ramificações de Mehadia, da mesma forma como fizemos com o ponto inicial, e seguiremos até chegarmos no ponto final com o menor custo possível.
 
-A imagem abaixo simula o passo a passo utilizado pelo algoritmo A* para achar a melhor rota.
+A imagem abaixo simula o passo a passo utilizado pelo algoritmo A\* para achar a melhor rota.
 
 
 
