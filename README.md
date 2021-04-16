@@ -21,7 +21,7 @@ A busca A\* (lê-se A estrela) é um tipo de busca heurística que tenta localiz
 
 Nesse caso o valor de h(n) é estimado e corresponde a distância em linha reta (hdlr) entre o nó e Bucharest. Os valores de hdlr estão presentes na tabela abaixo:
 
-![](images/hddr.png)
+![](images/hdlr.png)
 
 **Para exemplificar, consideremos o exercício proposto onde queremos partir de Lugoj com destino a Bucharest.**
 
