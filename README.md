@@ -10,7 +10,7 @@ Abaixo temos uma representação gráfica do mapa da Romênia com suas cidades r
 
 ![](images/romenia_grafo.png)
 
-Dadas as cidades A e B, como escolher o menor deslocamento possível?
+Dadas as cidades de Lugoj como ponto inicial e Bucharest como ponto final, como escolher o menor deslocamento possível?
 
 
 ## A solução
