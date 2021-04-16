@@ -30,13 +30,13 @@ Partindo do nosso ponto inicial teremos duas ramificações possíveis:
 
 Para calcular f(n) do ponto Mehadia teremos:
 
-f(mehadia) = distância gasta entre o ponto inicial e Mehadia + distância aproximada entre Mehadia e Bucharest.
 f(mehadia) = 70 + 241 = 311
+*Onde 70 é distância gasta entre o ponto inicial e Mehadia e 241 é a distância aproximada entre Mehadia e Bucharest.*
 
-Para calcular f(n) do ponto timisoara teremos:
+Para calcular f(n) do ponto Timisoara teremos:
 
-(timisoara) = distância gasta entre o ponto inicial e Timisoara + distância aproximada entre Timisoara e Bucharest.
 f(timisoara) = 111 + 329 = 440
+*Onde 111 é distância gasta entre o ponto inicial e Timisoara e 329 é a  distância aproximada entre Timisoara e Bucharest.*
 
 O algoritmo A\* faz uso de uma fila de prioridades. Uma vez inseridas as duas alternativas de rota na fila de prioridades, teremos como rota prioritária a de menor custo f(n), logo, Mehadia. Analisaremos as ramificações de Mehadia, da mesma forma como fizemos com o ponto inicial, e seguiremos até chegarmos no ponto final com o menor custo possível.
 
