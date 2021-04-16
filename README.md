@@ -8,7 +8,7 @@ Resolução do problema proposto por Stuart Russel e Perter Norvig na terceira e
 
 Abaixo temos uma representação gráfica do mapa da Romênia com suas cidades representadas pelos pontos. Os pontos estão ligadas por linhas que representam as estradas disponíveis com suas respectivas distâncias.
 
-![image](https://user-images.githubusercontent.com/595044/114965922-f712c080-9e47-11eb-9dee-6e6d8b9fb932.png)
+!(/images/romenia_grafo.png)
 
 Dadas as cidades A e B, como escolher o menor deslocamento possível?
 
@@ -21,7 +21,7 @@ A busca A\* (lê-se A estrela) é um tipo de busca heurística que tenta localiz
 
 Nesse caso o valor de h(n) é estimado e corresponde a distância em linha reta (hdlr) entre o nó e Bucharest. Os valores de hdlr estão presentes na tabela abaixo:
 
-![image](https://user-images.githubusercontent.com/595044/114965968-098cfa00-9e48-11eb-9a98-9e600b2e9665.png)
+!(/images/hldr.png)
 
 **Para exemplificar, consideremos o exercício proposto onde queremos partir de Lugoj com destino a Bucharest.**
 
@@ -42,5 +42,6 @@ O algoritmo A\* faz uso de uma fila de prioridades. Uma vez inseridas as duas al
 
 A imagem abaixo simula o passo a passo utilizado pelo algoritmo A\* para achar a melhor rota.
 
+!(/images/lugoj_bucharest.png)
 
 
