@@ -2,7 +2,7 @@
 
 Resolução do problema proposto por Stuart Russel e Perter Norvig na terceira edição do livro Inteligência Artifical utilizando o algoritmo A\*.
 
-*Essa implementação faz parte da lista de exercícios proposta pelo curso de Pós Graduação em Inteligência Artificial da UFPR.*
+*Essa implementação faz parte da lista de exercícios proposta pelo curso de Pós Graduação em Inteligência Artificial Aplicada da UFPR.*
 
 ## O problema
 
